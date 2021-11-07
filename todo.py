@@ -57,7 +57,7 @@ while go != 1:
     for x, y in stuff.items():
         print(x, y)
 
-counter == counter - 1
+counter = counter - 1
 
 if counter == 1:
     print(stuffnew1)
