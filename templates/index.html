@@ -3,7 +3,7 @@
 <style>
 #TopHeader {
     border: 0px solid #154360;
-    padding: 25px;
+    padding: 5px;
     background: #154360;
     font-size: 30px;
     color: #A9CCE3;
@@ -18,7 +18,9 @@
     column-gap: 40px;
 }
 #LoginHeader {
-    
+    font-size: 20px;
+    color: #154360;
+    font-weight: bold;
 }
 #Login {
     font-size: 15px;
@@ -31,10 +33,12 @@
 <div id="TopHeader">
     <h1>My Website</h1>
 </div>
-<p> motivational messages</p>
 
+<div id="LoginHeader">
 <p style="font-size: 20px"> Login</p>
+</div>
 </body>
+
 <form action="action_page.php" method="post">
   <div id="Login">
     <label for="uname"><b>Username</b></label>
@@ -43,7 +47,7 @@
     <br>
     
     <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    <input type="password " placeholder="Enter Password" name="psw" required>
 
     <br>
     
@@ -59,7 +63,7 @@
 <div id="HyperLinks">
     <a href="http://127.0.0.1:5000/cakes">Cakes</a>
     <br>
-    <a href="http://127.0.0.1:5000/motivational">Motivational Quotes</a>
+    <a href="http://127.0.0.1:5000/motivational">Motivation Quotes</a>
     <br>
     <a href="http://127.0.0.1:5000/todo">To Do List</a>
     <br>
@@ -70,4 +74,3 @@
     </div>
 </body>
 </html>
-
