@@ -27,7 +27,7 @@ def motivational():
 
 @app.route('/todo')
 def todo():
-    return('todo.py')
+    return render_template('todo.html')
 
 #stuff = {
     #"Task": [],
