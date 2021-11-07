@@ -1,3 +1,1 @@
-# newhacks2021
-pog website
-this is website. it will not be updated
+# Get Going - NewHacks 2021
