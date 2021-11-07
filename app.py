@@ -28,6 +28,9 @@ def motivational():
 @app.route('/todo')
 def todo():
     return render_template('todo.html')
+@app.route('/signup')
+def signup():
+    return render_template('signup.html')
 
 #stuff = {
     #"Task": [],
