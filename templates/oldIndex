@@ -1,0 +1,48 @@
+<html>
+
+<head>
+<link rel="stylesheet" href='/static/style.css'>
+<style>
+#TopHeader {
+    border: 0px solid #154360;
+    padding: 25px;
+    background: #154360;
+    font-size: 30px;
+    color: #A9CCE3;
+    text-align: center;
+}
+#HyperLinks {
+    
+    border: 2px solid #154360;
+    background: #85C1E9;
+    font-size: 15px;
+    color: #AED6F1;
+    column-count: 3;
+    column-gap: 40px;
+}
+</style>
+</head>
+
+<body>
+<div id="TopHeader">
+    <h1>My Website</h1>
+</div>
+
+<p> hi my name's jules </p>
+
+<div id="HyperLinks">
+    <a href="http://127.0.0.1:5000/cakes">Cakes</a>
+    <br>
+    <a href="http://127.0.0.1:5000/cakes">Filler</a>
+    <br>
+    <a href="http://127.0.0.1:5000/cakes">Filler</a>
+    <br>
+    <a href="http://127.0.0.1:5000/cakes">Filler</a>
+    <br>
+    <a href="http://127.0.0.1:5000/cakes">Filler</a>
+    <br>
+</div>
+</body>
+
+
+</html>
