@@ -1,4 +1,5 @@
 <head>
+<link rel="stylesheet" href='/static/style.css'>
 <style>
 #TopHeader {
     border: 0px solid #154360;
@@ -16,6 +17,14 @@
     column-count: 3;
     column-gap: 40px;
 }
+#LoginHeader {
+    
+}
+#Login {
+    font-size: 15px;
+    color: #154360;
+}
+
 </style>
 
 <body>
@@ -24,6 +33,29 @@
 </div>
 <p> motivational messages</p>
 
+<p style="font-size: 20px"> Login</p>
+</body>
+<form action="action_page.php" method="post">
+  <div id="Login">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <br>
+    
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <br>
+    
+    <button type="submit">Login</button>
+  </div>
+  
+<a href="http://192.168.0.14:5000/signup">Sign up</a>
+</form>
+
+<br>
+
+<body>
 <div id="HyperLinks">
     <a href="http://127.0.0.1:5000/cakes">Cakes</a>
     <br>
@@ -37,21 +69,4 @@
     <br>
     </div>
 </body>
-
-<body>
-<p style="font-size: 20px"> Login</p>
-</body>
 </html>
-<form action="action_page.php" method="post">
-  <div class="container">
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <button type="submit">Login</button>
-  </div>
-  <div>
-  <a href="http://192.168.0.14:5000/signup">Sign up</a>
-</form>
