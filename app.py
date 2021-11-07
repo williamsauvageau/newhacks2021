@@ -23,7 +23,7 @@ def cakes():
 
 @app.route('/motivational')
 def motivational():
-    return choice
+    return render_template('motivational.html', choice=choice)
 
 @app.route('/todo')
 def todo():
