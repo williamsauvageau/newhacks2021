@@ -25,15 +25,7 @@ while go != 1:
         "Other comments:": other,
     }
 
-    #stuffnumber = 0
-
-    #counter = stuffnumber
-
-    #str(stuffnumber)
-
-    #exec('stuffnumber' + stuffnumber = stuff.copy())
-
-    if counter == 1:           #I am aware taht this is stupid but cant figure out another way
+    if counter == 1:       
         stuffnew1 = stuff.copy()
     elif counter == 2:
         stuffnew2 = stuff.copy()
